@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+h6, h5 {
+    text-align: center;
+}
+h3 {
+    font-size: 2em;
+}
+
+/*////////////////////////nav bar///////////////////////////////////*/
+#nav {
+    /*background-color: #db0a5b;*/
+    background-color: #b22a5e;
+    color: white;
+}
+#nav a{
+    color: white;
+}
+/*/cart badge in nav/*/
+.mdl-badge.mdl-badge--overlap:after {
+    top:2px;
+}
+/*cart tab*/
+.fa-shopping-cart {
+    font-size: 1.5em;
+}
+/*nav active color*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: inherit !important;
+    color: black !important;
+    height: 10vh;
+}
+/*///////////////////////banner///////////////////////////*/
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: #0a6ebd;
+}
+#banner img {
+    padding-bottom: 5%;
+    height: 50vh;
+}
+
+/*////////////////////////////index main content/////////////////*/
+
+#main_content {
+    height: auto;
+    min-height:65vh;
+}
+
+#temp_content{
+    padding: 5vh 5vw;
+}
+/*///////////////////////footer////////////////*/
+footer {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #5e112d;
+    position: relative;
+    min-height: 10vh;
+    margin-top: 0%;
+}
+footer .fa {
+    margin: 2px;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+/*//////////////////our macaron page///////////////////////////*/
+
+.macaron_text {
+    position: relative;
+    padding: 5%;
+}
+.macaron_text h3 {
+    font-size: 2em;
+}
+#macaron_shop {
+    position: relative;
+    padding: 5% 6% 5% 0;
+    height: auto;
+}
+#macaron_shop p {
+    text-align: center;
+}
+.mac {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1%;
+    border: 1px solid gray;
+    margin-bottom: 4%;
+}
+.mac_img {
+    width: 100%;
+    padding: 0 2% 5% 2%;
+}
+
+/*///////////////////welcome page/////////////////////////////*/
+.welcome_section-main-content-para , .gifts-party-main-content{
+    padding: 2% 10%;
+}
+.welcome_section-title {
+    font-size: 2em;
+}
+
+/*////////////////gifts and partis page////////////////////////*/
+.para-style.gift-box-list li {
+    display: block;
+}
+/*///////////////////////media query for portrait///////////////*/
+@media screen and (orientation: portrait) {
+    #main_content {
+        height: auto;
+        min-height:79vh;
+    }
+}
+/*/////////////////media query for mobile////////////*/
+@media screen and (max-width: 640px){
+    .mdl-badge.mdl-badge--overlap:after {
+        top:0px;
+        right: 10%;
+    }
+    /*footer*/
+footer {
+     text-align: center;
+ }
+/*macaron page*/
+    #macaron_shop {
+        padding: 4%;
+    }
+    /*welcome page*/
+    .welcome_section-main-content-para, .gifts-party-main-content {
+        padding: 2%;
+    }
+}

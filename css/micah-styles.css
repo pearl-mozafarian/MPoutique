@@ -1,0 +1,63 @@
+/********************   CART - page 1 - w/login   **********************/
+#sign-in,
+#sign-up,
+#guest-checkout,
+#cart {
+    height: 10vh;
+}
+#log-in-btn button,
+#sign-up-btn button,
+#guest-checkout-btn button,
+#proceed-to-checkout button{
+    width: 100%;
+    height: 5vh;
+    display: block;
+}
+.user-login{
+    top:   5vh;
+    margin-bottom: 5vh;
+}
+#proceed-to-checkout {
+    bottom: 1vh;
+}
+#proceed-to-checkout button {
+    margin-left: 25%;
+}
+.cart {
+    min-height: 80vh;
+    position: relative;
+}
+#cart-table {
+    margin-bottom: 10vh;
+    position: relative;
+    top: 5vh;
+    box-shadow:   5px 5px 5px 3px darkgray;
+    #margin-top: 15vh;
+}
+.cart-row {
+    height: auto;
+    position: relative;
+    background: url("../images/cart-background.png");
+    background-size: cover;
+}
+/************   END CART - page 1 - w/login   ********************/
+
+
+.login-forms .container {
+    background-color: whitesmoke;
+}
+.login-form .well,
+.signup-form .well,
+.guest-checkout-form .well {
+    margin-top: 5vh;
+    position: relative;
+    box-shadow: 5px 5px 5px 3px darkgray;
+}
+ form div {
+     background-color: white;
+ }
+ .hide-form {
+     height: 0;
+ }
+/********************************   END CART - page 2 - w/login forms   ***************************************/
+/**shipto form positioning to be done**/
